@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="animateTestLoadPage">
+    <!-- <div *ngIf="isLoading" class="text-center spinner">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+    </div> -->
+    <div class="justify-content-center d-flex mb-4">
+        <h1 class="text-center mt-4 test-load-page">TEST LOAD PAGE</h1>
+    </div>
+    <div *ngIf="isLoading" class="text-center">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <form *ngIf="!isLoading" action="">
+        <div class="justify-content-center d-flex">
+            <div class="col-md-8 justify-content-between">
+                <div class="mb-3">
+                    <label for="url" class="form-label">Url</label>
+                    <input class="form-control" type="url" name="url" id="url" placeholder="Enter the url" #url/>
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+                <div class="d-flex">
+                    <div class="col-6 pe-1">
+                        <label for="iterator" class="form-label">Number of iterations</label>
+                        <input class="form-control" type="number" name="iterator" id="iterator" placeholder="Enter the iterations" #iterator />
+                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                    </div>
+                    <div class="col-6 ps-1">
+                        <label for="sleep" class="form-label">Time between iterations</label>
+                        <input class="form-control" type="number" name="sleep" id="sleep" placeholder="Enter the wait time between iterations" #sleep>
+                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="justify-content-center d-flex mt-5">
+            <input class="btn btn-block btn-secondary col-2 me-1" type="button" value="Clean up" (click)="url.value = ''; iterator.value = ''; sleep.value = '';"/>
+            <input class="btn btn-block btn-primary col-4 ms-1" type="button" value="To open" (click)="submit(url, iterator.value, sleep.value)"/>
+        </div>
+    </form>
+</body>
+</html>

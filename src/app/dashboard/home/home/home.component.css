@@ -1,0 +1,252 @@
+/* .test-bnet-recaudos {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #5dabf2;
+    text-shadow: 0 8px 9px #003e77, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    padding: 60px;
+    border-radius: 20px;
+} */
+
+.bg-home {
+    justify-content: center;
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.bg-home h1, .bg-home h2 {
+    position: relative;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 0 8px 9px #003e77, 0px -2px 1px #fff;
+    transition: font-size 1s;
+    text-align: center;
+}
+
+.bg-home h1.lt-1::after {
+    content: "T";
+}
+
+.bg-home h1.lt-2::after {
+    content: "E";
+}
+
+.bg-home h1.lt-3::after {
+    content: "S";
+}
+
+.bg-home h1.lt-4::after {
+    content: "T";
+}
+
+.bg-home h1.lt-5::after {
+    content: "S";
+}
+
+.bg-home h1.lt-1:hover, .bg-home h1.lt-2:hover,
+.bg-home h1.lt-3:hover, .bg-home h1.lt-4:hover,
+.bg-home h1.lt-5:hover {
+    font-size: 350%;
+}
+
+.bg-home h1::after {
+    /* content: "TESTS"; */
+    font-size: 320%;
+    letter-spacing: -4px;
+    background-size: 150%;
+    text-shadow: 0 8px 9px #fcdf8a, 0px -2px 1px #f38381;
+    background: linear-gradient(135deg, #fcdf8a, #f38381);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-stroke-width: 0;
+    -webkit-text-stroke-width: 0;
+    text-align: center;
+    z-index: -1;
+    -webkit-animation: pulse-delay 8.5s linear 0.5s infinite alternate;
+    animation: pulse-delay 8.5s linear 0.5s infinite alternate;
+}
+
+.bg-home h2.lt-1::after {
+    content: "B";
+}
+
+.bg-home h2.lt-2::after {
+    content: "N";
+}
+
+.bg-home h2.lt-3::after {
+    content: "E";
+}
+
+.bg-home h2.lt-4::after {
+    content: "T";
+}
+
+.bg-home h2.lt-5::after {
+    content: "R";
+}
+
+.bg-home h2.lt-6::after {
+    content: "E";
+}
+
+.bg-home h2.lt-7::after {
+    content: "C";
+}
+
+.bg-home h2.lt-8::after {
+    content: "A";
+}
+
+.bg-home h2.lt-9::after {
+    content: "U";
+}
+
+.bg-home h2.lt-10::after {
+    content: "D";
+}
+
+.bg-home h2.lt-11::after {
+    content: "O";
+}
+
+.bg-home h2.lt-12::after {
+    content: "S";
+}
+
+.bg-home h2.lt-1:hover, .bg-home h2.lt-2:hover,
+.bg-home h2.lt-3:hover, .bg-home h2.lt-4:hover,
+.bg-home h2.lt-5:hover, .bg-home h2.lt-6:hover,
+.bg-home h2.lt-7:hover, .bg-home h2.lt-8:hover,
+.bg-home h2.lt-9:hover, .bg-home h2.lt-10:hover,
+.bg-home h2.lt-11:hover, .bg-home h2.lt-12:hover {
+    font-size: 320%;
+}
+
+.bg-home h2::after {
+    /* content: "BNET RECAUDOS"; */
+    font-size: 250%;
+    letter-spacing: -4px;
+    background-size: 150%;
+    text-shadow: 0 8px 9px #fcdf8a, 0px -2px 1px #f38381;
+    background: linear-gradient(135deg, #fcdf8a, #f38381);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-stroke-width: 0;
+    -webkit-text-stroke-width: 0;
+    text-align: center;
+    z-index: -1;
+    -webkit-animation: pulse-delay 8.5s linear 0.5s infinite alternate;
+    animation: pulse-delay 8.5s linear 0.5s infinite alternate;
+}
+
+@keyframes pulse-delay {
+    0% {
+        text-shadow: 0 8px 9px #fcdf8a, 0px -2px 1px #f38381;
+        background: -webkit-linear-gradient(315deg, #fcdf8a, #f38381);
+        background: -o-linear-gradient(315deg, #fcdf8a 0, #f38381 100%);
+        background: linear-gradient(135deg, #fcdf8a, #f38381);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    4.16667% {
+        text-shadow: 0 8px 9px #c3ec52, 0px -2px 1px #0ba29d;
+        background: -webkit-linear-gradient(315deg, #c3ec52, #0ba29d);
+        background: -o-linear-gradient(315deg, #c3ec52 0, #0ba29d 100%);
+        background: linear-gradient(135deg, #c3ec52, #0ba29d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    8.33333% {
+        text-shadow: 0 8px 9px #13f1fc, 0px -2px 1px #0470dc;
+        background: -webkit-linear-gradient(315deg, #13f1fc, #0470dc);
+        background: -o-linear-gradient(315deg, #13f1fc 0, #0470dc 100%);
+        background: linear-gradient(135deg, #13f1fc, #0470dc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    12.5% {
+        text-shadow: 0 8px 9px #ce9ffc, 0px -2px 1px #7367f0;
+        background: -webkit-linear-gradient(315deg, #ce9ffc, #7367f0);
+        background: -o-linear-gradient(315deg, #ce9ffc 0, #7367f0 100%);
+        background: linear-gradient(135deg, #ce9ffc, #7367f0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    16.6667% {
+        text-shadow: 0 8px 9px #f36265, 0px -2px 1px #961276;
+        background: -webkit-linear-gradient(315deg, #f36265, #961276);
+        background: -o-linear-gradient(315deg, #f36265 0, #961276 100%);
+        background: linear-gradient(135deg, #f36265, #961276);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    20.8333% {
+        text-shadow: 0 8px 9px #184e68, 0px -2px 1px #57ca85;
+        background: -webkit-linear-gradient(315deg, #184e68, #57ca85);
+        background: -o-linear-gradient(315deg, #184e68 0, #57ca85 100%);
+        background: linear-gradient(135deg, #184e68, #57ca85);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    25% {
+        text-shadow: 0 8px 9px #fad961, 0px -2px 1px #f76b1c;
+        background: -webkit-linear-gradient(315deg, #fad961, #f76b1c);
+        background: -o-linear-gradient(315deg, #fad961 0, #f76b1c 100%);
+        background: linear-gradient(135deg, #fad961, #f76b1c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    29.1667% {
+        text-shadow: 0 8px 9px #f2d50f, 0px -2px 1px #da0641;
+        background: -webkit-linear-gradient(315deg, #f2d50f, #da0641);
+        background: -o-linear-gradient(315deg, #f2d50f 0, #da0641 100%);
+        background: linear-gradient(135deg, #f2d50f, #da0641);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    33.3333% {
+        text-shadow: 0 8px 9px #f54ea2, 0px -2px 1px #ff7676;
+        background: -webkit-linear-gradient(315deg, #f54ea2, #ff7676);
+        background: -o-linear-gradient(315deg, #f54ea2 0, #ff7676 100%);
+        background: linear-gradient(135deg, #f54ea2, #ff7676);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    37.5% {
+        text-shadow: 0 8px 9px #0ff0b3, 0px -2px 1px #036ed9;
+        background: -webkit-linear-gradient(315deg, #0ff0b3, #036ed9);
+        background: -o-linear-gradient(315deg, #0ff0b3 0, #036ed9 100%);
+        background: linear-gradient(135deg, #0ff0b3, #036ed9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    41.6667% {
+        text-shadow: 0 8px 9px #17ead9, 0px -2px 1px #6078ea;
+        background: -webkit-linear-gradient(315deg, #17ead9, #6078ea);
+        background: -o-linear-gradient(315deg, #17ead9 0, #6078ea 100%);
+        background: linear-gradient(135deg, #17ead9, #6078ea);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        text-shadow: 0 8px 9px #17ead9, 0px -2px 1px #6078ea;
+        background: -webkit-linear-gradient(315deg, #17ead9, #6078ea);
+        background: -o-linear-gradient(315deg, #17ead9 0, #6078ea 100%);
+        background: linear-gradient(135deg, #17ead9, #6078ea);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

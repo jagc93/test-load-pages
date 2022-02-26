@@ -1,0 +1,29 @@
+.test-load-page {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #5dabf2;
+    text-shadow: 0 8px 9px #003e77, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    background: linear-gradient(to bottom, #5dabf2 0%,#5dabf2 100%);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.spinner {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 2;
+    top: 0;
+    justify-content: center !important;
+    background-color: rgba(1, 1, 1, .9);
+    color: #696969;
+}
+
+.spinner>.spinner-border {
+    left: 50% !important;
+    top: 50% !important;
+    position: fixed !important;
+}
